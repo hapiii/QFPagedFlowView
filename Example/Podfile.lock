@@ -1,0 +1,16 @@
+PODS:
+  - QFPagedFlowView (0.1.0)
+
+DEPENDENCIES:
+  - QFPagedFlowView (from `../`)
+
+EXTERNAL SOURCES:
+  QFPagedFlowView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QFPagedFlowView: a6bf3307ddc7a0ee4c5431860e2f5917188252b6
+
+PODFILE CHECKSUM: 0bd57049cc22f7595b594facfe0acd743dcfb1c8
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,6 @@
+framework module QFPagedFlowView {
+  umbrella header "QFPagedFlowView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002C764E857A75CC046A176C910AC0D7 /* QFPagedFlowView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E4B4DD2470945FA83AD5FAC9398819 /* QFPagedFlowView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A8E89A977EECE9AEFB615868692E3B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37905A56C65E3056D62F4A3F7701D7FD /* ReplaceMe.m */; };
+		0EFD1EF9D0BF4A94FEE9F5AE15089D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1D768BBF640AA9C11E93026F34A5043F /* Pods-QFPagedFlowView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5E80427993EF14054B96FAEB467D9F /* Pods-QFPagedFlowView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22C4566FF09C6E999B9C58F3FA8B9DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		310CA9CEC196C6CE0E61EEE3ADCDFF5E /* Pods-QFPagedFlowView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 902190442DB26ABEFE374CC0D1C7846E /* Pods-QFPagedFlowView_Tests-dummy.m */; };
+		B207239825C69157C716310BB1AA9601 /* Pods-QFPagedFlowView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFF030E9E3CAC6B9BBC9924EB1F0AA2 /* Pods-QFPagedFlowView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6E25A162154BDE919722CA818BCC19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EF14CA31D8786951FF38C51526B5988A /* QFPagedFlowView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1572001EF0E5794D1647A4C378155 /* QFPagedFlowView-dummy.m */; };
+		F5E145C62BE1A28234BC46627EB756A1 /* Pods-QFPagedFlowView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9336BEF1B0CF23786CEB1414E4D008 /* Pods-QFPagedFlowView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D9F974E6625983B1315D28C04615F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43E5977584A51129B5CA6AE18F21B0C;
+			remoteInfo = QFPagedFlowView;
+		};
+		A240C36B9CE1147785C577FB2999E68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7185402FB436B6538462C49A15F860A0;
+			remoteInfo = "Pods-QFPagedFlowView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9336BEF1B0CF23786CEB1414E4D008 /* Pods-QFPagedFlowView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QFPagedFlowView_Example-dummy.m"; sourceTree = "<group>"; };
+		10D24F2CB7FE8C7CF4446E23D268B3CA /* Pods-QFPagedFlowView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QFPagedFlowView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		16055483A9EE5535CD022DE0E08465CE /* Pods-QFPagedFlowView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		19A70DC71C67889713990CF963436EEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1AFF030E9E3CAC6B9BBC9924EB1F0AA2 /* Pods-QFPagedFlowView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QFPagedFlowView_Example-umbrella.h"; sourceTree = "<group>"; };
+		2EA8191D9DC76D8ED07E4710F1153229 /* Pods-QFPagedFlowView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34F1572001EF0E5794D1647A4C378155 /* QFPagedFlowView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QFPagedFlowView-dummy.m"; sourceTree = "<group>"; };
+		37905A56C65E3056D62F4A3F7701D7FD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QFPagedFlowView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3C8A2A153FE51914CB6B75B87B91D791 /* Pods-QFPagedFlowView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QFPagedFlowView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		446288CA31CB2DCED2D0D0FD71F9BE1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		462EDB34762185172F60996B5E5C4E2A /* Pods-QFPagedFlowView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		56E4B4DD2470945FA83AD5FAC9398819 /* QFPagedFlowView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFPagedFlowView-umbrella.h"; sourceTree = "<group>"; };
+		59AA7CE08659DA1FECD56CDF151D3C09 /* Pods-QFPagedFlowView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QFPagedFlowView.xcconfig; sourceTree = "<group>"; };
+		6B8B69C6119479EC9911D30404E30516 /* QFPagedFlowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QFPagedFlowView.framework; path = QFPagedFlowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A84D89719F54D8348E47085115806A /* Pods-QFPagedFlowView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QFPagedFlowView_Example.modulemap"; sourceTree = "<group>"; };
+		902190442DB26ABEFE374CC0D1C7846E /* Pods-QFPagedFlowView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QFPagedFlowView_Tests-dummy.m"; sourceTree = "<group>"; };
+		99A6F34F66D0FD1CC01C05FAA918316A /* QFPagedFlowView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QFPagedFlowView-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA4ACA8A2BA1DAC6ADAC4212B3796571 /* QFPagedFlowView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QFPagedFlowView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB4E1B3DE293D013B93E222A9A026DF9 /* QFPagedFlowView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFPagedFlowView-prefix.pch"; sourceTree = "<group>"; };
+		B8CFC04F73C025AFB0512038D40D8268 /* Pods-QFPagedFlowView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BE27A7EF2D77FCF632EA9656A02F2802 /* Pods-QFPagedFlowView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Tests-Info.plist"; sourceTree = "<group>"; };
+		C1E24A31CF81B8013E6B4A31E029C228 /* QFPagedFlowView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QFPagedFlowView.modulemap; sourceTree = "<group>"; };
+		CAE14A96AC3468DC38E8E9AC6E8B921F /* Pods-QFPagedFlowView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QFPagedFlowView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF5E80427993EF14054B96FAEB467D9F /* Pods-QFPagedFlowView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QFPagedFlowView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D145A2B65AE497E3A77824704B433965 /* Pods-QFPagedFlowView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Example-Info.plist"; sourceTree = "<group>"; };
+		D2E54C55DCEDD22C211B13A6C9554105 /* Pods-QFPagedFlowView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QFPagedFlowView_Tests.modulemap"; sourceTree = "<group>"; };
+		D4A01D81788E0CED0EB5D4D5B43F5AB5 /* Pods_QFPagedFlowView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QFPagedFlowView_Tests.framework; path = "Pods-QFPagedFlowView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD79742B83B64777C1B3EA9C5F2EB092 /* Pods-QFPagedFlowView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ECBCE462261E386389D883EBCC492146 /* Pods_QFPagedFlowView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QFPagedFlowView_Example.framework; path = "Pods-QFPagedFlowView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F97C561C46BDC74EE21E080F6F16DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFD1EF9D0BF4A94FEE9F5AE15089D0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5848A59B99E72E36DACF5E1B360ED383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C4566FF09C6E999B9C58F3FA8B9DCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE64AC274E6BB129FED0F67EC159FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6E25A162154BDE919722CA818BCC19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388CCC1BE29068CD1F0AD1E587A340EC /* Pods-QFPagedFlowView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E54C55DCEDD22C211B13A6C9554105 /* Pods-QFPagedFlowView_Tests.modulemap */,
+				CAE14A96AC3468DC38E8E9AC6E8B921F /* Pods-QFPagedFlowView_Tests-acknowledgements.markdown */,
+				16055483A9EE5535CD022DE0E08465CE /* Pods-QFPagedFlowView_Tests-acknowledgements.plist */,
+				902190442DB26ABEFE374CC0D1C7846E /* Pods-QFPagedFlowView_Tests-dummy.m */,
+				BE27A7EF2D77FCF632EA9656A02F2802 /* Pods-QFPagedFlowView_Tests-Info.plist */,
+				CF5E80427993EF14054B96FAEB467D9F /* Pods-QFPagedFlowView_Tests-umbrella.h */,
+				2EA8191D9DC76D8ED07E4710F1153229 /* Pods-QFPagedFlowView_Tests.debug.xcconfig */,
+				DD79742B83B64777C1B3EA9C5F2EB092 /* Pods-QFPagedFlowView_Tests.release.xcconfig */,
+			);
+			name = "Pods-QFPagedFlowView_Tests";
+			path = "Target Support Files/Pods-QFPagedFlowView_Tests";
+			sourceTree = "<group>";
+		};
+		3FE8FD83848CE053F781BA8E5117F0C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F7C6BC5CB4CD90FD0D6356E0367671B /* QFPagedFlowView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		483C21253150B2FBAFDEA1F8EBB1F804 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E24A31CF81B8013E6B4A31E029C228 /* QFPagedFlowView.modulemap */,
+				616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */,
+				34F1572001EF0E5794D1647A4C378155 /* QFPagedFlowView-dummy.m */,
+				99A6F34F66D0FD1CC01C05FAA918316A /* QFPagedFlowView-Info.plist */,
+				AB4E1B3DE293D013B93E222A9A026DF9 /* QFPagedFlowView-prefix.pch */,
+				56E4B4DD2470945FA83AD5FAC9398819 /* QFPagedFlowView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QFPagedFlowView";
+			sourceTree = "<group>";
+		};
+		577B0A347E9C47EFF01A17B61B0621FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBCE462261E386389D883EBCC492146 /* Pods_QFPagedFlowView_Example.framework */,
+				D4A01D81788E0CED0EB5D4D5B43F5AB5 /* Pods_QFPagedFlowView_Tests.framework */,
+				6B8B69C6119479EC9911D30404E30516 /* QFPagedFlowView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662024F701658CBF0D44C91D2AE778F5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				446288CA31CB2DCED2D0D0FD71F9BE1E /* LICENSE */,
+				AA4ACA8A2BA1DAC6ADAC4212B3796571 /* QFPagedFlowView.podspec */,
+				19A70DC71C67889713990CF963436EEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		998E7165605896A62F12297117BC5C57 /* Pods-QFPagedFlowView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				80A84D89719F54D8348E47085115806A /* Pods-QFPagedFlowView_Example.modulemap */,
+				3C8A2A153FE51914CB6B75B87B91D791 /* Pods-QFPagedFlowView_Example-acknowledgements.markdown */,
+				462EDB34762185172F60996B5E5C4E2A /* Pods-QFPagedFlowView_Example-acknowledgements.plist */,
+				0E9336BEF1B0CF23786CEB1414E4D008 /* Pods-QFPagedFlowView_Example-dummy.m */,
+				10D24F2CB7FE8C7CF4446E23D268B3CA /* Pods-QFPagedFlowView_Example-frameworks.sh */,
+				D145A2B65AE497E3A77824704B433965 /* Pods-QFPagedFlowView_Example-Info.plist */,
+				1AFF030E9E3CAC6B9BBC9924EB1F0AA2 /* Pods-QFPagedFlowView_Example-umbrella.h */,
+				B8CFC04F73C025AFB0512038D40D8268 /* Pods-QFPagedFlowView_Example.debug.xcconfig */,
+				59AA7CE08659DA1FECD56CDF151D3C09 /* Pods-QFPagedFlowView_Example.release.xcconfig */,
+			);
+			name = "Pods-QFPagedFlowView_Example";
+			path = "Target Support Files/Pods-QFPagedFlowView_Example";
+			sourceTree = "<group>";
+		};
+		9F7C6BC5CB4CD90FD0D6356E0367671B /* QFPagedFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				37905A56C65E3056D62F4A3F7701D7FD /* ReplaceMe.m */,
+				662024F701658CBF0D44C91D2AE778F5 /* Pod */,
+				483C21253150B2FBAFDEA1F8EBB1F804 /* Support Files */,
+			);
+			name = QFPagedFlowView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4F2B924D36B54093BDC806DA6DADCF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				998E7165605896A62F12297117BC5C57 /* Pods-QFPagedFlowView_Example */,
+				388CCC1BE29068CD1F0AD1E587A340EC /* Pods-QFPagedFlowView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3FE8FD83848CE053F781BA8E5117F0C5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				577B0A347E9C47EFF01A17B61B0621FF /* Products */,
+				C4F2B924D36B54093BDC806DA6DADCF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		413F79EF45CAB292B95E6B2454C0740A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D768BBF640AA9C11E93026F34A5043F /* Pods-QFPagedFlowView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6789322AA24B56B1EE3EE8D568CCF4F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002C764E857A75CC046A176C910AC0D7 /* QFPagedFlowView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC89848AC9155A5FF2E4A18BD0E13E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B207239825C69157C716310BB1AA9601 /* Pods-QFPagedFlowView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7185402FB436B6538462C49A15F860A0 /* Pods-QFPagedFlowView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B929061F93009F266DF6BDDAF8F8E34A /* Build configuration list for PBXNativeTarget "Pods-QFPagedFlowView_Example" */;
+			buildPhases = (
+				7DC89848AC9155A5FF2E4A18BD0E13E4 /* Headers */,
+				3B882F1A205324CA7146A3FD2DD73395 /* Sources */,
+				5848A59B99E72E36DACF5E1B360ED383 /* Frameworks */,
+				EF67992C594C0E4C3665E1EC2C79503F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421120B4BD03848DEF5040BB072F37F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-QFPagedFlowView_Example";
+			productName = "Pods-QFPagedFlowView_Example";
+			productReference = ECBCE462261E386389D883EBCC492146 /* Pods_QFPagedFlowView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43E5977584A51129B5CA6AE18F21B0C /* QFPagedFlowView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 513FCB7237CC49711192E7F94584F7F7 /* Build configuration list for PBXNativeTarget "QFPagedFlowView" */;
+			buildPhases = (
+				6789322AA24B56B1EE3EE8D568CCF4F0 /* Headers */,
+				2AC0A06E8AC814D8DCFE99D80134F00E /* Sources */,
+				5BE64AC274E6BB129FED0F67EC159FAE /* Frameworks */,
+				FCEB27A1273F91743A20866E3593FE8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFPagedFlowView;
+			productName = QFPagedFlowView;
+			productReference = 6B8B69C6119479EC9911D30404E30516 /* QFPagedFlowView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4255863BDF3F86C5ACCEA0B1BA64F66 /* Pods-QFPagedFlowView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74360DCB9DEA9FB52F309042E803FAD /* Build configuration list for PBXNativeTarget "Pods-QFPagedFlowView_Tests" */;
+			buildPhases = (
+				413F79EF45CAB292B95E6B2454C0740A /* Headers */,
+				694A6079BDE59EDE34B4C6C8BBA0CD4F /* Sources */,
+				3F97C561C46BDC74EE21E080F6F16DBA /* Frameworks */,
+				A3964F0CEEC99E52660C3B5DBF2D57F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3D8BCA5E78E1793CC8AA6713DE747C /* PBXTargetDependency */,
+			);
+			name = "Pods-QFPagedFlowView_Tests";
+			productName = "Pods-QFPagedFlowView_Tests";
+			productReference = D4A01D81788E0CED0EB5D4D5B43F5AB5 /* Pods_QFPagedFlowView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 577B0A347E9C47EFF01A17B61B0621FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7185402FB436B6538462C49A15F860A0 /* Pods-QFPagedFlowView_Example */,
+				C4255863BDF3F86C5ACCEA0B1BA64F66 /* Pods-QFPagedFlowView_Tests */,
+				A43E5977584A51129B5CA6AE18F21B0C /* QFPagedFlowView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3964F0CEEC99E52660C3B5DBF2D57F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF67992C594C0E4C3665E1EC2C79503F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEB27A1273F91743A20866E3593FE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AC0A06E8AC814D8DCFE99D80134F00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF14CA31D8786951FF38C51526B5988A /* QFPagedFlowView-dummy.m in Sources */,
+				05A8E89A977EECE9AEFB615868692E3B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B882F1A205324CA7146A3FD2DD73395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E145C62BE1A28234BC46627EB756A1 /* Pods-QFPagedFlowView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694A6079BDE59EDE34B4C6C8BBA0CD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310CA9CEC196C6CE0E61EEE3ADCDFF5E /* Pods-QFPagedFlowView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421120B4BD03848DEF5040BB072F37F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QFPagedFlowView;
+			target = A43E5977584A51129B5CA6AE18F21B0C /* QFPagedFlowView */;
+			targetProxy = 7D9F974E6625983B1315D28C04615F85 /* PBXContainerItemProxy */;
+		};
+		8D3D8BCA5E78E1793CC8AA6713DE747C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QFPagedFlowView_Example";
+			target = 7185402FB436B6538462C49A15F860A0 /* Pods-QFPagedFlowView_Example */;
+			targetProxy = A240C36B9CE1147785C577FB2999E68B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EC2D38F2DB4CF4201565AF2296CB971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QFPagedFlowView/QFPagedFlowView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QFPagedFlowView/QFPagedFlowView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QFPagedFlowView/QFPagedFlowView.modulemap";
+				PRODUCT_MODULE_NAME = QFPagedFlowView;
+				PRODUCT_NAME = QFPagedFlowView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11778B9CF2FF6156DB9D4198C1B665F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD79742B83B64777C1B3EA9C5F2EB092 /* Pods-QFPagedFlowView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QFPagedFlowView_Tests/Pods-QFPagedFlowView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QFPagedFlowView_Tests/Pods-QFPagedFlowView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E15DAE36E3F8E4D9E7064018C474C73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA8191D9DC76D8ED07E4710F1153229 /* Pods-QFPagedFlowView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QFPagedFlowView_Tests/Pods-QFPagedFlowView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QFPagedFlowView_Tests/Pods-QFPagedFlowView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7DC964EA5D455DEDCA7172DA3774DFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8CFC04F73C025AFB0512038D40D8268 /* Pods-QFPagedFlowView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QFPagedFlowView_Example/Pods-QFPagedFlowView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QFPagedFlowView_Example/Pods-QFPagedFlowView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B25042DE830BEF6F5DE3D1F346D2C31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QFPagedFlowView/QFPagedFlowView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QFPagedFlowView/QFPagedFlowView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QFPagedFlowView/QFPagedFlowView.modulemap";
+				PRODUCT_MODULE_NAME = QFPagedFlowView;
+				PRODUCT_NAME = QFPagedFlowView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC819381ACDD495176A1739798F2E7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59AA7CE08659DA1FECD56CDF151D3C09 /* Pods-QFPagedFlowView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QFPagedFlowView_Example/Pods-QFPagedFlowView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QFPagedFlowView_Example/Pods-QFPagedFlowView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		513FCB7237CC49711192E7F94584F7F7 /* Build configuration list for PBXNativeTarget "QFPagedFlowView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25042DE830BEF6F5DE3D1F346D2C31C /* Debug */,
+				0EC2D38F2DB4CF4201565AF2296CB971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74360DCB9DEA9FB52F309042E803FAD /* Build configuration list for PBXNativeTarget "Pods-QFPagedFlowView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E15DAE36E3F8E4D9E7064018C474C73 /* Debug */,
+				11778B9CF2FF6156DB9D4198C1B665F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B929061F93009F266DF6BDDAF8F8E34A /* Build configuration list for PBXNativeTarget "Pods-QFPagedFlowView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DC964EA5D455DEDCA7172DA3774DFC4 /* Debug */,
+				FC819381ACDD495176A1739798F2E7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
