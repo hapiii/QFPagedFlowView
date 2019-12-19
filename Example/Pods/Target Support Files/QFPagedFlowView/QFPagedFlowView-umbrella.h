@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NewPagedFlowView.h"
+#import "PGIndexBannerSubiew.h"
 
 FOUNDATION_EXPORT double QFPagedFlowViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char QFPagedFlowViewVersionString[];

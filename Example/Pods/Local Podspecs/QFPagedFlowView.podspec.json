@@ -1,8 +1,8 @@
 {
   "name": "QFPagedFlowView",
   "version": "0.1.0",
-  "summary": "A short description of QFPagedFlowView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "QFPagedFlowView 轮播图组件",
+  "description": "QFPagedFlowView 轮播图组件，基于NewPagedFlowView ，添加了底部投影等UI修改",
   "homepage": "https://github.com/hapiii/QFPagedFlowView",
   "license": {
     "type": "MIT",

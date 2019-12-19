@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002C764E857A75CC046A176C910AC0D7 /* QFPagedFlowView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56E4B4DD2470945FA83AD5FAC9398819 /* QFPagedFlowView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05A8E89A977EECE9AEFB615868692E3B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37905A56C65E3056D62F4A3F7701D7FD /* ReplaceMe.m */; };
 		0EFD1EF9D0BF4A94FEE9F5AE15089D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1D768BBF640AA9C11E93026F34A5043F /* Pods-QFPagedFlowView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF5E80427993EF14054B96FAEB467D9F /* Pods-QFPagedFlowView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22C4566FF09C6E999B9C58F3FA8B9DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		310CA9CEC196C6CE0E61EEE3ADCDFF5E /* Pods-QFPagedFlowView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 902190442DB26ABEFE374CC0D1C7846E /* Pods-QFPagedFlowView_Tests-dummy.m */; };
+		32CEACF3382E8DF7FD7A2450B8A832E3 /* PGIndexBannerSubiew.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD807BECE017591C47B3CF19EE9AD78 /* PGIndexBannerSubiew.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379BA754097ED27E71497CBCE5CAB282 /* QFPagedFlowView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF592C2E944541ED82195820A8916A2 /* QFPagedFlowView-dummy.m */; };
+		44692A57D3F5766E63ED0FF67522834A /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 552A2493687B40D98C5B12694A6EE4FC /* NewPagedFlowView.m */; };
+		4FB03F8AE075D22E6610A9FFB79942D1 /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 421B3288A771C88D19D5871227DF3AF4 /* PGIndexBannerSubiew.m */; };
+		57A425DE2059CD79D41E2492A051A176 /* QFPagedFlowView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF3ED6CBD56176222E2406A4155C40F /* QFPagedFlowView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F8F8AAFD09D00FB165EB75043A94E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B207239825C69157C716310BB1AA9601 /* Pods-QFPagedFlowView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFF030E9E3CAC6B9BBC9924EB1F0AA2 /* Pods-QFPagedFlowView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF6E25A162154BDE919722CA818BCC19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EF14CA31D8786951FF38C51526B5988A /* QFPagedFlowView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F1572001EF0E5794D1647A4C378155 /* QFPagedFlowView-dummy.m */; };
+		DBC8889B26DFE1FEAF6844C42632C43C /* NewPagedFlowView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B962CF58F2BC632D26338DA5698038 /* NewPagedFlowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E145C62BE1A28234BC46627EB756A1 /* Pods-QFPagedFlowView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9336BEF1B0CF23786CEB1414E4D008 /* Pods-QFPagedFlowView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,38 +43,49 @@
 		0E9336BEF1B0CF23786CEB1414E4D008 /* Pods-QFPagedFlowView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QFPagedFlowView_Example-dummy.m"; sourceTree = "<group>"; };
 		10D24F2CB7FE8C7CF4446E23D268B3CA /* Pods-QFPagedFlowView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QFPagedFlowView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		16055483A9EE5535CD022DE0E08465CE /* Pods-QFPagedFlowView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		19A70DC71C67889713990CF963436EEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1AFF030E9E3CAC6B9BBC9924EB1F0AA2 /* Pods-QFPagedFlowView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QFPagedFlowView_Example-umbrella.h"; sourceTree = "<group>"; };
+		1DF592C2E944541ED82195820A8916A2 /* QFPagedFlowView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QFPagedFlowView-dummy.m"; sourceTree = "<group>"; };
 		2EA8191D9DC76D8ED07E4710F1153229 /* Pods-QFPagedFlowView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34F1572001EF0E5794D1647A4C378155 /* QFPagedFlowView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QFPagedFlowView-dummy.m"; sourceTree = "<group>"; };
-		37905A56C65E3056D62F4A3F7701D7FD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QFPagedFlowView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		3C8A2A153FE51914CB6B75B87B91D791 /* Pods-QFPagedFlowView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QFPagedFlowView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		446288CA31CB2DCED2D0D0FD71F9BE1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		421B3288A771C88D19D5871227DF3AF4 /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGIndexBannerSubiew.m; path = QFPagedFlowView/Classes/PGIndexBannerSubiew.m; sourceTree = "<group>"; };
 		462EDB34762185172F60996B5E5C4E2A /* Pods-QFPagedFlowView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		56E4B4DD2470945FA83AD5FAC9398819 /* QFPagedFlowView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFPagedFlowView-umbrella.h"; sourceTree = "<group>"; };
+		552A2493687B40D98C5B12694A6EE4FC /* NewPagedFlowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NewPagedFlowView.m; path = QFPagedFlowView/Classes/NewPagedFlowView.m; sourceTree = "<group>"; };
 		59AA7CE08659DA1FECD56CDF151D3C09 /* Pods-QFPagedFlowView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QFPagedFlowView.xcconfig; sourceTree = "<group>"; };
 		6B8B69C6119479EC9911D30404E30516 /* QFPagedFlowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QFPagedFlowView.framework; path = QFPagedFlowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A84D89719F54D8348E47085115806A /* Pods-QFPagedFlowView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QFPagedFlowView_Example.modulemap"; sourceTree = "<group>"; };
 		902190442DB26ABEFE374CC0D1C7846E /* Pods-QFPagedFlowView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QFPagedFlowView_Tests-dummy.m"; sourceTree = "<group>"; };
-		99A6F34F66D0FD1CC01C05FAA918316A /* QFPagedFlowView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QFPagedFlowView-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA4ACA8A2BA1DAC6ADAC4212B3796571 /* QFPagedFlowView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QFPagedFlowView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB4E1B3DE293D013B93E222A9A026DF9 /* QFPagedFlowView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFPagedFlowView-prefix.pch"; sourceTree = "<group>"; };
+		9FF336C8FD5F5376BF261163A0CDF59E /* QFPagedFlowView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QFPagedFlowView.modulemap; sourceTree = "<group>"; };
+		A5FD537679B5CE8FBA944AF4B0961A5F /* QFPagedFlowView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QFPagedFlowView.xcconfig; sourceTree = "<group>"; };
+		ADE35B813293A09DBAC9E782C1E646D9 /* QFPagedFlowView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QFPagedFlowView-Info.plist"; sourceTree = "<group>"; };
 		B8CFC04F73C025AFB0512038D40D8268 /* Pods-QFPagedFlowView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BE27A7EF2D77FCF632EA9656A02F2802 /* Pods-QFPagedFlowView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Tests-Info.plist"; sourceTree = "<group>"; };
-		C1E24A31CF81B8013E6B4A31E029C228 /* QFPagedFlowView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QFPagedFlowView.modulemap; sourceTree = "<group>"; };
+		C29A8A04EBA16FC2D7D44E5349058434 /* QFPagedFlowView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFPagedFlowView-prefix.pch"; sourceTree = "<group>"; };
+		C7B962CF58F2BC632D26338DA5698038 /* NewPagedFlowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewPagedFlowView.h; path = QFPagedFlowView/Classes/NewPagedFlowView.h; sourceTree = "<group>"; };
 		CAE14A96AC3468DC38E8E9AC6E8B921F /* Pods-QFPagedFlowView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QFPagedFlowView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF5E80427993EF14054B96FAEB467D9F /* Pods-QFPagedFlowView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QFPagedFlowView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D145A2B65AE497E3A77824704B433965 /* Pods-QFPagedFlowView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QFPagedFlowView_Example-Info.plist"; sourceTree = "<group>"; };
 		D2E54C55DCEDD22C211B13A6C9554105 /* Pods-QFPagedFlowView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QFPagedFlowView_Tests.modulemap"; sourceTree = "<group>"; };
+		D428019D64BDC946C1E281BC14A24F7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D4A01D81788E0CED0EB5D4D5B43F5AB5 /* Pods_QFPagedFlowView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QFPagedFlowView_Tests.framework; path = "Pods-QFPagedFlowView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF3ED6CBD56176222E2406A4155C40F /* QFPagedFlowView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QFPagedFlowView-umbrella.h"; sourceTree = "<group>"; };
 		DD79742B83B64777C1B3EA9C5F2EB092 /* Pods-QFPagedFlowView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QFPagedFlowView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E53010CFA5D088853E8FE28997DB3956 /* QFPagedFlowView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QFPagedFlowView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECBCE462261E386389D883EBCC492146 /* Pods_QFPagedFlowView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QFPagedFlowView_Example.framework; path = "Pods-QFPagedFlowView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD807BECE017591C47B3CF19EE9AD78 /* PGIndexBannerSubiew.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGIndexBannerSubiew.h; path = QFPagedFlowView/Classes/PGIndexBannerSubiew.h; sourceTree = "<group>"; };
+		F44696AD3E202F7631D58B9BA4F696C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		135C0FF7F5857B17489580D2145065A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F8F8AAFD09D00FB165EB75043A94E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F97C561C46BDC74EE21E080F6F16DBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,14 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C4566FF09C6E999B9C58F3FA8B9DCF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BE64AC274E6BB129FED0F67EC159FAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF6E25A162154BDE919722CA818BCC19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,28 +121,6 @@
 			path = "Target Support Files/Pods-QFPagedFlowView_Tests";
 			sourceTree = "<group>";
 		};
-		3FE8FD83848CE053F781BA8E5117F0C5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9F7C6BC5CB4CD90FD0D6356E0367671B /* QFPagedFlowView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		483C21253150B2FBAFDEA1F8EBB1F804 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C1E24A31CF81B8013E6B4A31E029C228 /* QFPagedFlowView.modulemap */,
-				616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */,
-				34F1572001EF0E5794D1647A4C378155 /* QFPagedFlowView-dummy.m */,
-				99A6F34F66D0FD1CC01C05FAA918316A /* QFPagedFlowView-Info.plist */,
-				AB4E1B3DE293D013B93E222A9A026DF9 /* QFPagedFlowView-prefix.pch */,
-				56E4B4DD2470945FA83AD5FAC9398819 /* QFPagedFlowView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QFPagedFlowView";
-			sourceTree = "<group>";
-		};
 		577B0A347E9C47EFF01A17B61B0621FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +131,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		662024F701658CBF0D44C91D2AE778F5 /* Pod */ = {
+		7CBE810377069F9CC2D472CA9BB226F7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				446288CA31CB2DCED2D0D0FD71F9BE1E /* LICENSE */,
-				AA4ACA8A2BA1DAC6ADAC4212B3796571 /* QFPagedFlowView.podspec */,
-				19A70DC71C67889713990CF963436EEE /* README.md */,
+				D428019D64BDC946C1E281BC14A24F7E /* LICENSE */,
+				E53010CFA5D088853E8FE28997DB3956 /* QFPagedFlowView.podspec */,
+				F44696AD3E202F7631D58B9BA4F696C7 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -174,15 +158,12 @@
 			path = "Target Support Files/Pods-QFPagedFlowView_Example";
 			sourceTree = "<group>";
 		};
-		9F7C6BC5CB4CD90FD0D6356E0367671B /* QFPagedFlowView */ = {
+		AB7FAC3108999CA38A89FA4C3041FB38 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				37905A56C65E3056D62F4A3F7701D7FD /* ReplaceMe.m */,
-				662024F701658CBF0D44C91D2AE778F5 /* Pod */,
-				483C21253150B2FBAFDEA1F8EBB1F804 /* Support Files */,
+				CDF1BB5F8F684C0511BC6ADA334D0A44 /* QFPagedFlowView */,
 			);
-			name = QFPagedFlowView;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -202,11 +183,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CC0C1FC112642F51702C2C62A197FB0E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FF336C8FD5F5376BF261163A0CDF59E /* QFPagedFlowView.modulemap */,
+				A5FD537679B5CE8FBA944AF4B0961A5F /* QFPagedFlowView.xcconfig */,
+				1DF592C2E944541ED82195820A8916A2 /* QFPagedFlowView-dummy.m */,
+				ADE35B813293A09DBAC9E782C1E646D9 /* QFPagedFlowView-Info.plist */,
+				C29A8A04EBA16FC2D7D44E5349058434 /* QFPagedFlowView-prefix.pch */,
+				DCF3ED6CBD56176222E2406A4155C40F /* QFPagedFlowView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QFPagedFlowView";
+			sourceTree = "<group>";
+		};
+		CDF1BB5F8F684C0511BC6ADA334D0A44 /* QFPagedFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				C7B962CF58F2BC632D26338DA5698038 /* NewPagedFlowView.h */,
+				552A2493687B40D98C5B12694A6EE4FC /* NewPagedFlowView.m */,
+				ECD807BECE017591C47B3CF19EE9AD78 /* PGIndexBannerSubiew.h */,
+				421B3288A771C88D19D5871227DF3AF4 /* PGIndexBannerSubiew.m */,
+				7CBE810377069F9CC2D472CA9BB226F7 /* Pod */,
+				CC0C1FC112642F51702C2C62A197FB0E /* Support Files */,
+			);
+			name = QFPagedFlowView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3FE8FD83848CE053F781BA8E5117F0C5 /* Development Pods */,
+				AB7FAC3108999CA38A89FA4C3041FB38 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				577B0A347E9C47EFF01A17B61B0621FF /* Products */,
 				C4F2B924D36B54093BDC806DA6DADCF4 /* Targets Support Files */,
@@ -232,19 +241,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6789322AA24B56B1EE3EE8D568CCF4F0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				002C764E857A75CC046A176C910AC0D7 /* QFPagedFlowView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7DC89848AC9155A5FF2E4A18BD0E13E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B207239825C69157C716310BB1AA9601 /* Pods-QFPagedFlowView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BD75F56C570381947F76608214438B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8889B26DFE1FEAF6844C42632C43C /* NewPagedFlowView.h in Headers */,
+				32CEACF3382E8DF7FD7A2450B8A832E3 /* PGIndexBannerSubiew.h in Headers */,
+				57A425DE2059CD79D41E2492A051A176 /* QFPagedFlowView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +283,12 @@
 		};
 		A43E5977584A51129B5CA6AE18F21B0C /* QFPagedFlowView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 513FCB7237CC49711192E7F94584F7F7 /* Build configuration list for PBXNativeTarget "QFPagedFlowView" */;
+			buildConfigurationList = 70C087876DBE6F37026C2A0558F8D859 /* Build configuration list for PBXNativeTarget "QFPagedFlowView" */;
 			buildPhases = (
-				6789322AA24B56B1EE3EE8D568CCF4F0 /* Headers */,
-				2AC0A06E8AC814D8DCFE99D80134F00E /* Sources */,
-				5BE64AC274E6BB129FED0F67EC159FAE /* Frameworks */,
-				FCEB27A1273F91743A20866E3593FE8A /* Resources */,
+				D0BD75F56C570381947F76608214438B /* Headers */,
+				F27FE3E989F6A8CBCA64C20AD1B1D424 /* Sources */,
+				135C0FF7F5857B17489580D2145065A6 /* Frameworks */,
+				A19E9D67506564AE093B53E85EEA3BF9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,6 +347,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A19E9D67506564AE093B53E85EEA3BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A3964F0CEEC99E52660C3B5DBF2D57F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,25 +368,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCEB27A1273F91743A20866E3593FE8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AC0A06E8AC814D8DCFE99D80134F00E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF14CA31D8786951FF38C51526B5988A /* QFPagedFlowView-dummy.m in Sources */,
-				05A8E89A977EECE9AEFB615868692E3B /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3B882F1A205324CA7146A3FD2DD73395 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +384,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				310CA9CEC196C6CE0E61EEE3ADCDFF5E /* Pods-QFPagedFlowView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27FE3E989F6A8CBCA64C20AD1B1D424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44692A57D3F5766E63ED0FF67522834A /* NewPagedFlowView.m in Sources */,
+				4FB03F8AE075D22E6610A9FFB79942D1 /* PGIndexBannerSubiew.m in Sources */,
+				379BA754097ED27E71497CBCE5CAB282 /* QFPagedFlowView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +415,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EC2D38F2DB4CF4201565AF2296CB971 /* Release */ = {
+		0F7039CC4D01C033FF6ADE25F6B4ABDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */;
+			baseConfigurationReference = A5FD537679B5CE8FBA944AF4B0961A5F /* QFPagedFlowView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -429,11 +441,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		11778B9CF2FF6156DB9D4198C1B665F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -659,9 +670,9 @@
 			};
 			name = Debug;
 		};
-		B25042DE830BEF6F5DE3D1F346D2C31C /* Debug */ = {
+		C83402E2E1835DC18EE370BAB963F37B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616C395E197D929887938C30125F123E /* QFPagedFlowView.xcconfig */;
+			baseConfigurationReference = A5FD537679B5CE8FBA944AF4B0961A5F /* QFPagedFlowView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -685,10 +696,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		FC819381ACDD495176A1739798F2E7A2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -736,11 +748,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		513FCB7237CC49711192E7F94584F7F7 /* Build configuration list for PBXNativeTarget "QFPagedFlowView" */ = {
+		70C087876DBE6F37026C2A0558F8D859 /* Build configuration list for PBXNativeTarget "QFPagedFlowView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B25042DE830BEF6F5DE3D1F346D2C31C /* Debug */,
-				0EC2D38F2DB4CF4201565AF2296CB971 /* Release */,
+				0F7039CC4D01C033FF6ADE25F6B4ABDA /* Debug */,
+				C83402E2E1835DC18EE370BAB963F37B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
