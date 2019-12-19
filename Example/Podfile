@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QFPagedFlowView_Example' do
+  pod 'QFPagedFlowView', :path => '../'
+
+  target 'QFPagedFlowView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
