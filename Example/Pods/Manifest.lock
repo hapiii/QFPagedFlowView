@@ -1,5 +1,5 @@
 PODS:
-  - QFPagedFlowView (0.1.0)
+  - QFPagedFlowView (0.1.1)
 
 DEPENDENCIES:
   - QFPagedFlowView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QFPagedFlowView: 89f858553e097d364a82a7cc4273624e6e4ea3a9
+  QFPagedFlowView: 3056160ee2fcfc5670f52a009b71787824c7ed45
 
 PODFILE CHECKSUM: 0bd57049cc22f7595b594facfe0acd743dcfb1c8
 

@@ -1,6 +1,6 @@
 {
   "name": "QFPagedFlowView",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "QFPagedFlowView 轮播图组件",
   "description": "QFPagedFlowView 轮播图组件，基于NewPagedFlowView ，添加了底部投影等UI修改",
   "homepage": "https://github.com/hapiii/QFPagedFlowView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hapiii/QFPagedFlowView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
