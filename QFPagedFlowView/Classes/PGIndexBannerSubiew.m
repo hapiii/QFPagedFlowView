@@ -50,7 +50,7 @@
     self.coverView.frame = superViewBounds;
     superViewBounds.size.height -= 14;
     //底部投影
-    self.shdowBg.frame = CGRectMake(superViewBounds.origin.x+4, superViewBounds.origin.y+superViewBounds.size.height-3, superViewBounds.size.width-8, 3);
+    self.shdowBg.frame = CGRectMake(superViewBounds.origin.x+3, superViewBounds.origin.y+superViewBounds.size.height-3, superViewBounds.size.width-6, 3);
     self.mainImageView.frame = superViewBounds;
     
 }
@@ -60,13 +60,13 @@
         
         _shdowBg = [[UIView alloc] init];
         _shdowBg.backgroundColor = [UIColor whiteColor];
-        _shdowBg.layer.cornerRadius = 6;//圆角
-        _shdowBg.layer.shadowColor = [UIColor blackColor].CGColor;
+        _shdowBg.layer.cornerRadius = 5;//圆角
+        _shdowBg.layer.shadowColor = [UIColor colorWithRed:80/255.0f green:80/255.0f blue:80/255.0f alpha:0.8].CGColor;
         _shdowBg.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);//偏移量
         _shdowBg.layer.shadowOpacity= 1;//投影透明度
-        _shdowBg.layer.shadowRadius = 6;//投影半径
+        _shdowBg.layer.shadowRadius = 5;//投影半径
         _shdowBg.layer.borderWidth = 0.5;
-        _shdowBg.layer.borderColor = [UIColor colorWithRed:31/255.0f green:31/255.0f blue:31/255.0f alpha:1].CGColor;
+        _shdowBg.layer.borderColor = [UIColor colorWithRed:80/255.0f green:80/255.0f blue:80/255.0f alpha:0.8].CGColor;
         _shdowBg.layer.shadowOffset = CGSizeMake(0.0f, 3.0f);//偏移量
     }
     return _shdowBg;
